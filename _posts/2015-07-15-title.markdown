@@ -22,3 +22,22 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+{% highlight python %}
+from pandas.tools.plotting import scatter_matrix
+from sklearn.cross_validation import train_test_split
+from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score, f1_score, confusion_matrix
+from sklearn.model_selection import GridSearchCV
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler, LabelEncoder, LabelBinarizer
+from sklearn_pandas import DataFrameMapper, cross_val_score
+import datetime
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+%matplotlib inline
+{% endhighlight %}
+
