@@ -16,3 +16,9 @@ import pandas as pd
 import numpy as np
 
 {% endhighlight %}
+
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
